@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App td{
+  vertical-align: top;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-size: 11pt;
+}
+
+table, tr, td{
+  padding: 5px;
+  
+}
+
+
+style.reg_txt {
+  border: 1px solid pink;
+}
+style.error_txt {
+  border-color: red;
+}
+
+input, textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px; 
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.title td{
+  text-align: center;
+}
+.oneUserTb , .oneTaskTb, .onePostTb{
+  align-content: left;
+  background-color: #90c4c4;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 5px;
+  
+}
+.oneUserTb {
+  width: 400px;
+}
+
+.oneTaskTb, .onePostTb{
+  width: 300px;
+}
+
+.selectedTb{
+  border: 3px solid blue;
+}
+
+.AllUsersTb {
+  border-collapse: collapse;
+  border: 0px solid rgb(200, 18, 28);
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.AllTasksTb, .AllPostsTb{
+  border-collapse: collapse;
+  border: 0px solid rgb(200, 18, 28);
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.AllUsersTb table {
+  padding: 20px;
+  width: "80%";
+}
+
+.AllTasksTb table, .AllPostsTb table {
+  padding: 20px;
+  width: "80%";
+}
+.moreDetails {
+  border-collapse: separate;
+  background-color: #dfcccc;
+  border-radius: 10px 0 10px 0;
+  border: 2px solid rgb(128, 0, 100);
+  padding: 10px;
+}
+
+.moreDetails tr {
+  background-color: inherit;
+}
+
+.moreDetails input {
+  border: 1px solid grey;
+  background-color: inherit;
+  
+}
+.more , .mybutton{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: dimgray;
+  color: white;
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.mybutton:active{
+  background-color: white;
+  color: dimgray;
+}
+
+.hidemore {
+  display: none;
+}
+
+.showmore {
+  display: table-row;
+}
+
+.searchText{
+  width: 150px;
+}
+
+.arrow_icon{
+  width: 28px;
+  height: 28px;
+  border: 1px solid grey;
+  padding: 0px;
+}
+
+
+ .myTable{
+   border: 1px solid green;
+   border-collapse: collapse;
+   border-radius: 5px;
+   
+ }
+
+ .main_tr{
+   width: 300px;
+ }
+ .users_tr{
+  width: 400px;
+}
+.buttton_td{
+  border-spacing: 5px;
+  width: 40px;
+  text-align: center; 
+}
